@@ -6,6 +6,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+.paragraph {
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.read-more {
+  display: block;
+}
+
+.read-more::before {
+  content: '...';
+}
+
+.read-more.collapsed::before {
+  content: '';
+}
+
 
 /* General Styles */
 body {
