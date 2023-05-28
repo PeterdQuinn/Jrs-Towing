@@ -16,13 +16,12 @@
 }
 
 .read-more::before {
-  content: '...';
+  content: "...";
 }
 
 .read-more.collapsed::before {
-  content: '';
+  content: "";
 }
-
 
 /* General Styles */
 body {
@@ -34,8 +33,14 @@ body {
 }
 
 header {
-  background: linear-gradient(330deg, #ffffff, #ff4500 40%, #ff0000 70%, #ffffff);
-   color: black;
+  background: linear-gradient(
+    330deg,
+    #ffffff,
+    #ff4500 40%,
+    #ff0000 70%,
+    #ffffff
+  );
+  color: black;
   padding: 20px;
   text-align: center;
   flex-shrink: 0; /* Prevents header from shrinking */
@@ -81,8 +86,14 @@ nav ul li {
 }
 
 footer {
-  background: linear-gradient(330deg, #ffffff, #ff4500 40%, #ff0000 70%, #ffffff);
-  color: black;
+  background: linear-gradient(
+    330deg,
+    #ffffff,
+    #ff4500 40%,
+    #ff0000 70%,
+    #ffffff
+  );
+  color: whitesmoke;
   text-align: center;
   padding: 20px;
   flex-shrink: 0; /* Prevents footer from shrinking */
