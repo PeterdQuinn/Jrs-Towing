@@ -93,7 +93,7 @@ footer {
     #ff0000 70%,
     #ffffff
   );
-  color: whitesmoke;
+  color: white;
   text-align: center;
   padding: 20px;
   flex-shrink: 0; /* Prevents footer from shrinking */
